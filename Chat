@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Consulta Manual de Codificación</title>
+</head>
+
+<body>
+
+<h2>Consulta el Manual de Codificación</h2>
+
+<p>Escriba su pregunta sobre el manual:</p>
+
+<textarea id="question" rows="4" cols="70"
+placeholder="Ej: ¿Cómo se codifica una reintervención?"></textarea>
+
+<br><br>
+
+<button onclick="preguntar()">Preguntar</button>
+
+<h3>Respuesta</h3>
+<div id="answer"
+style="border:1px solid #ccc; padding:10px; width:70%;">
+</div>
+
+<script>
+function preguntar() {
+  document.getElementById("answer").innerText =
+    "La IA se conectará en el siguiente paso.";
+}
+</script>
+
+</body>
+</html>
